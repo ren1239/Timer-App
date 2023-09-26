@@ -75,7 +75,7 @@ function Timer({ onTimerEnd, onReset }) {
   // 6.1 Render the timer component
   return (
     <div className="tc">
-      <h1>The 5 Minute Timer</h1>
+      <h1>5 Minute Timer</h1>
       <div className="timer tc">{formatTime(timer)}</div>
       <div className="flex items-center justify-center ph3">
         <button
